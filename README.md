@@ -1,0 +1,2 @@
+# EyeofcloudSDKAndroid
+eyeofcloud android sdk

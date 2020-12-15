@@ -1,0 +1,27 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eyeofcloud.androidfullstackactivateintent">
+
+    <application
+        android:name="com.example.eyeofcloud.androidfullstackactivateintent.MyApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.eyeofcloud.androidfullstackactivateintent.LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.eyeofcloud.androidfullstackactivateintent.HomeActivity" />
+        <activity android:name="com.example.eyeofcloud.androidfullstackactivateintent.DefaultActivity" />
+        <activity android:name="com.example.eyeofcloud.androidfullstackactivateintent.VariationAActivity" />
+        <activity android:name="com.example.eyeofcloud.androidfullstackactivateintent.VariationBActivity" />
+        <activity android:name="com.example.eyeofcloud.androidfullstackactivateintent.EventConfirmActivity" />
+    </application>
+
+</manifest>

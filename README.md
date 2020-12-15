@@ -9,7 +9,7 @@ Eyeofcloud Full Stack is A/B testing and feature flag management for product dev
 
 
 ### Requirements
-* Android API 14 or higher 
+* Android API 11 or higher 
 
 
 ### Installing the SDK

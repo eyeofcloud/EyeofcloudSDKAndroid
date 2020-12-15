@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidFullStackActivateNormal.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidFullStackActivateNormal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidFullStackActivateNormal.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidFullStackActivateNormal.app.iml" />
+    </modules>
+  </component>
+</project>

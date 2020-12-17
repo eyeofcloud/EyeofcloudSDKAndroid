@@ -51,10 +51,10 @@ button.setOnClickListener(new View.OnClickListener() {
 
 ### Further References
 
-1. User Manuals
+1. User Manuals: 
 https://www.eyeofcloud.com/user_help#tab-%E7%A7%BB%E5%8A%A8%E7%AB%AFab%E6%B5%8B%E8%AF%95
 
-2. Development Guidance
+2. Development Guidance: 
 https://www.eyeofcloud.com/help/x/solutions/sdks/introduction/index.html?language=android&platform=mobile
 
 

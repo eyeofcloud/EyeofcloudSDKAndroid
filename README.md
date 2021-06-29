@@ -16,12 +16,15 @@ Eyeofcloud Full Stack is A/B testing and feature flag management for product dev
 To add the android-sdk and all modules to your project, include the following in your app's `build.gradle`:
 
 ```
-repositories {
-        maven { url 'https://dl.bintray.com/eyeofcloud/eyeofcloud' }
-}
 
 dependencies {
-       implementation 'com.eyeofcloud.ab:android.sdk:1.4.16' 
+       implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+       implementation 'com.twmacinta:fast-md5:2.7.1'
+       implementation "com.noveogroup.android:android-logger:1.3.1"
+       implementation "com.google.code.gson:gson:2.6.2"
+       implementation"com.android.support.test.espresso:espresso-idling-resource:2.2.2"
+
+       compileOnly "com.android.support:support-annotations:24.2.1"
 }
 ```
 
